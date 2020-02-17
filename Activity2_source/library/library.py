@@ -1,6 +1,6 @@
-from library.patron import Patron
-from library.library_db_interface import Library_DB
-from library.ext_api_interface import Books_API
+from .patron import Patron
+from .library_db_interface import Library_DB
+from .ext_api_interface import Books_API
 
 class Library:
 
