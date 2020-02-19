@@ -87,7 +87,6 @@ class TestLibrary(unittest.TestCase):
         library.db = mock_db.return_value
         self.assertEqual(library.register_patron('test_first', 'test_last', 18, 1), 1)
 
-
     @patch("library.library_db_interface.Library_DB")
     @patch("library.patron.Patron")
     def test_borrow_book(self, mock_patron, mock_db):
