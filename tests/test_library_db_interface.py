@@ -10,12 +10,19 @@ class Testlibrary_db_interface(unittest.TestCase):
         self.patron = Mock()
         self.patron = Patron("joseph", "avendano", 1, 1234)
         self.lib = Library_DB()
+
     def test_insert_patron(self):
         self.lib.insert_patron(self.patron)
         self.assertEquals(self.patron, self.lib.retrieve_patron(1234))
+
+    def test_insert_patron2(self):
+        result = self.lib.insert_patron(None)
+        self.assertIsNone(result)
+
     def test_get_patron_count(self):
         self.lib.insert_patron(self.patron)
         self.assertEqual(1, self.lib.get_patron_count())
+
     def test_get_all_patrons(self):
         self.lib.insert_patron(self.patron)
         patronList = [self.lib.convert_patron_to_db_format(self.patron)]
