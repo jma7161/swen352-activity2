@@ -1,0 +1,60 @@
+{
+ "start": 0,
+ "num_found": 1,
+ "numFound": 1,
+ "docs": [
+  {
+   "title_suggest": "Isometric strength position specificity resulting from isometric and isotonic training as a determinant in performance.",
+   "publish_place": [
+    "[Baton Rouge]"
+   ],
+   "has_fulltext": false,
+   "language": [
+    "eng"
+   ],
+   "edition_count": 1,
+   "edition_key": [
+    "OL16645658M"
+   ],
+   "last_modified_i": 1264089204,
+   "title": "Isometric strength position specificity resulting from isometric and isotonic training as a determinant in performance.",
+   "subject": [
+    "Muscles"
+   ],
+   "author_name": [
+    "Duane Ray Sterling"
+   ],
+   "seed": [
+    "/books/OL16645658M",
+    "/works/OL11872737W",
+    "/subjects/muscles",
+    "/authors/OL5082907A"
+   ],
+   "first_publish_year": 1969,
+   "publish_year": [
+    1969
+   ],
+   "key": "/works/OL11872737W",
+   "text": [
+    "OL16645658M",
+    "Duane Ray Sterling",
+    "OL5082907A",
+    "Isometric strength position specificity resulting from isometric and isotonic training as a determinant in performance.",
+    "Muscles",
+    "/works/OL11872737W",
+    "Isometric strength position specificity resulting from isometric and isotonic training as a determinant in performance.."
+   ],
+   "publish_date": [
+    "1969"
+   ],
+   "publisher": [
+    "Three Rivers Press"
+   ],
+   "author_key": [
+    "OL5082907A"
+   ],
+   "type": "work",
+   "ebook_count_i": 0
+  }
+ ]
+}
